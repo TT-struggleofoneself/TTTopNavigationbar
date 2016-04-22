@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD55C641CCA26CB0014C52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C631CCA26CB0014C52F /* main.m */; };
+		EBD55C671CCA26CB0014C52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C661CCA26CB0014C52F /* AppDelegate.m */; };
+		EBD55C6A1CCA26CB0014C52F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C691CCA26CB0014C52F /* ViewController.m */; };
+		EBD55C6D1CCA26CB0014C52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD55C6B1CCA26CB0014C52F /* Main.storyboard */; };
+		EBD55C6F1CCA26CB0014C52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD55C6E1CCA26CB0014C52F /* Assets.xcassets */; };
+		EBD55C721CCA26CB0014C52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD55C701CCA26CB0014C52F /* LaunchScreen.storyboard */; };
+		EBD55C7D1CCA26CB0014C52F /* TTTopNavigationbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C7C1CCA26CB0014C52F /* TTTopNavigationbarTests.m */; };
+		EBD55C881CCA26CB0014C52F /* TTTopNavigationbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C871CCA26CB0014C52F /* TTTopNavigationbarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD55C791CCA26CB0014C52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD55C571CCA26CB0014C52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD55C5E1CCA26CB0014C52F;
+			remoteInfo = TTTopNavigationbar;
+		};
+		EBD55C841CCA26CB0014C52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD55C571CCA26CB0014C52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD55C5E1CCA26CB0014C52F;
+			remoteInfo = TTTopNavigationbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBD55C5F1CCA26CB0014C52F /* TTTopNavigationbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTopNavigationbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD55C631CCA26CB0014C52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD55C651CCA26CB0014C52F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBD55C661CCA26CB0014C52F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBD55C681CCA26CB0014C52F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBD55C691CCA26CB0014C52F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBD55C6C1CCA26CB0014C52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD55C6E1CCA26CB0014C52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD55C711CCA26CB0014C52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD55C731CCA26CB0014C52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD55C781CCA26CB0014C52F /* TTTopNavigationbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTopNavigationbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD55C7C1CCA26CB0014C52F /* TTTopNavigationbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTopNavigationbarTests.m; sourceTree = "<group>"; };
+		EBD55C7E1CCA26CB0014C52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD55C831CCA26CB0014C52F /* TTTopNavigationbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTopNavigationbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD55C871CCA26CB0014C52F /* TTTopNavigationbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTopNavigationbarUITests.m; sourceTree = "<group>"; };
+		EBD55C891CCA26CB0014C52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD55C5C1CCA26CB0014C52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C751CCA26CB0014C52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C801CCA26CB0014C52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD55C561CCA26CB0014C52F = {
+			isa = PBXGroup;
+			children = (
+				EBD55C611CCA26CB0014C52F /* TTTopNavigationbar */,
+				EBD55C7B1CCA26CB0014C52F /* TTTopNavigationbarTests */,
+				EBD55C861CCA26CB0014C52F /* TTTopNavigationbarUITests */,
+				EBD55C601CCA26CB0014C52F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD55C601CCA26CB0014C52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C5F1CCA26CB0014C52F /* TTTopNavigationbar.app */,
+				EBD55C781CCA26CB0014C52F /* TTTopNavigationbarTests.xctest */,
+				EBD55C831CCA26CB0014C52F /* TTTopNavigationbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD55C611CCA26CB0014C52F /* TTTopNavigationbar */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C651CCA26CB0014C52F /* AppDelegate.h */,
+				EBD55C661CCA26CB0014C52F /* AppDelegate.m */,
+				EBD55C681CCA26CB0014C52F /* ViewController.h */,
+				EBD55C691CCA26CB0014C52F /* ViewController.m */,
+				EBD55C6B1CCA26CB0014C52F /* Main.storyboard */,
+				EBD55C6E1CCA26CB0014C52F /* Assets.xcassets */,
+				EBD55C701CCA26CB0014C52F /* LaunchScreen.storyboard */,
+				EBD55C731CCA26CB0014C52F /* Info.plist */,
+				EBD55C621CCA26CB0014C52F /* Supporting Files */,
+			);
+			path = TTTopNavigationbar;
+			sourceTree = "<group>";
+		};
+		EBD55C621CCA26CB0014C52F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C631CCA26CB0014C52F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBD55C7B1CCA26CB0014C52F /* TTTopNavigationbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C7C1CCA26CB0014C52F /* TTTopNavigationbarTests.m */,
+				EBD55C7E1CCA26CB0014C52F /* Info.plist */,
+			);
+			path = TTTopNavigationbarTests;
+			sourceTree = "<group>";
+		};
+		EBD55C861CCA26CB0014C52F /* TTTopNavigationbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C871CCA26CB0014C52F /* TTTopNavigationbarUITests.m */,
+				EBD55C891CCA26CB0014C52F /* Info.plist */,
+			);
+			path = TTTopNavigationbarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD55C5E1CCA26CB0014C52F /* TTTopNavigationbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD55C8C1CCA26CB0014C52F /* Build configuration list for PBXNativeTarget "TTTopNavigationbar" */;
+			buildPhases = (
+				EBD55C5B1CCA26CB0014C52F /* Sources */,
+				EBD55C5C1CCA26CB0014C52F /* Frameworks */,
+				EBD55C5D1CCA26CB0014C52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTopNavigationbar;
+			productName = TTTopNavigationbar;
+			productReference = EBD55C5F1CCA26CB0014C52F /* TTTopNavigationbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD55C771CCA26CB0014C52F /* TTTopNavigationbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD55C8F1CCA26CB0014C52F /* Build configuration list for PBXNativeTarget "TTTopNavigationbarTests" */;
+			buildPhases = (
+				EBD55C741CCA26CB0014C52F /* Sources */,
+				EBD55C751CCA26CB0014C52F /* Frameworks */,
+				EBD55C761CCA26CB0014C52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD55C7A1CCA26CB0014C52F /* PBXTargetDependency */,
+			);
+			name = TTTopNavigationbarTests;
+			productName = TTTopNavigationbarTests;
+			productReference = EBD55C781CCA26CB0014C52F /* TTTopNavigationbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD55C821CCA26CB0014C52F /* TTTopNavigationbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD55C921CCA26CB0014C52F /* Build configuration list for PBXNativeTarget "TTTopNavigationbarUITests" */;
+			buildPhases = (
+				EBD55C7F1CCA26CB0014C52F /* Sources */,
+				EBD55C801CCA26CB0014C52F /* Frameworks */,
+				EBD55C811CCA26CB0014C52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD55C851CCA26CB0014C52F /* PBXTargetDependency */,
+			);
+			name = TTTopNavigationbarUITests;
+			productName = TTTopNavigationbarUITests;
+			productReference = EBD55C831CCA26CB0014C52F /* TTTopNavigationbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD55C571CCA26CB0014C52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TT_code;
+				TargetAttributes = {
+					EBD55C5E1CCA26CB0014C52F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EBD55C771CCA26CB0014C52F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBD55C5E1CCA26CB0014C52F;
+					};
+					EBD55C821CCA26CB0014C52F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBD55C5E1CCA26CB0014C52F;
+					};
+				};
+			};
+			buildConfigurationList = EBD55C5A1CCA26CB0014C52F /* Build configuration list for PBXProject "TTTopNavigationbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD55C561CCA26CB0014C52F;
+			productRefGroup = EBD55C601CCA26CB0014C52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD55C5E1CCA26CB0014C52F /* TTTopNavigationbar */,
+				EBD55C771CCA26CB0014C52F /* TTTopNavigationbarTests */,
+				EBD55C821CCA26CB0014C52F /* TTTopNavigationbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD55C5D1CCA26CB0014C52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD55C721CCA26CB0014C52F /* LaunchScreen.storyboard in Resources */,
+				EBD55C6F1CCA26CB0014C52F /* Assets.xcassets in Resources */,
+				EBD55C6D1CCA26CB0014C52F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C761CCA26CB0014C52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C811CCA26CB0014C52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD55C5B1CCA26CB0014C52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD55C6A1CCA26CB0014C52F /* ViewController.m in Sources */,
+				EBD55C671CCA26CB0014C52F /* AppDelegate.m in Sources */,
+				EBD55C641CCA26CB0014C52F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C741CCA26CB0014C52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD55C7D1CCA26CB0014C52F /* TTTopNavigationbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C7F1CCA26CB0014C52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD55C881CCA26CB0014C52F /* TTTopNavigationbarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD55C7A1CCA26CB0014C52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD55C5E1CCA26CB0014C52F /* TTTopNavigationbar */;
+			targetProxy = EBD55C791CCA26CB0014C52F /* PBXContainerItemProxy */;
+		};
+		EBD55C851CCA26CB0014C52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD55C5E1CCA26CB0014C52F /* TTTopNavigationbar */;
+			targetProxy = EBD55C841CCA26CB0014C52F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD55C6B1CCA26CB0014C52F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD55C6C1CCA26CB0014C52F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD55C701CCA26CB0014C52F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD55C711CCA26CB0014C52F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD55C8A1CCA26CB0014C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD55C8B1CCA26CB0014C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD55C8D1CCA26CB0014C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTTopNavigationbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTTopNavigationbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD55C8E1CCA26CB0014C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTTopNavigationbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTTopNavigationbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBD55C901CCA26CB0014C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTTopNavigationbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTTopNavigationbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTTopNavigationbar.app/TTTopNavigationbar";
+			};
+			name = Debug;
+		};
+		EBD55C911CCA26CB0014C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTTopNavigationbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTTopNavigationbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTTopNavigationbar.app/TTTopNavigationbar";
+			};
+			name = Release;
+		};
+		EBD55C931CCA26CB0014C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTTopNavigationbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTTopNavigationbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTTopNavigationbar;
+			};
+			name = Debug;
+		};
+		EBD55C941CCA26CB0014C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTTopNavigationbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTTopNavigationbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTTopNavigationbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD55C5A1CCA26CB0014C52F /* Build configuration list for PBXProject "TTTopNavigationbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD55C8A1CCA26CB0014C52F /* Debug */,
+				EBD55C8B1CCA26CB0014C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD55C8C1CCA26CB0014C52F /* Build configuration list for PBXNativeTarget "TTTopNavigationbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD55C8D1CCA26CB0014C52F /* Debug */,
+				EBD55C8E1CCA26CB0014C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD55C8F1CCA26CB0014C52F /* Build configuration list for PBXNativeTarget "TTTopNavigationbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD55C901CCA26CB0014C52F /* Debug */,
+				EBD55C911CCA26CB0014C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD55C921CCA26CB0014C52F /* Build configuration list for PBXNativeTarget "TTTopNavigationbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD55C931CCA26CB0014C52F /* Debug */,
+				EBD55C941CCA26CB0014C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD55C571CCA26CB0014C52F /* Project object */;
+}
