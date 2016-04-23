@@ -15,6 +15,7 @@
 		EBD55C721CCA26CB0014C52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD55C701CCA26CB0014C52F /* LaunchScreen.storyboard */; };
 		EBD55C7D1CCA26CB0014C52F /* TTTopNavigationbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C7C1CCA26CB0014C52F /* TTTopNavigationbarTests.m */; };
 		EBD55C881CCA26CB0014C52F /* TTTopNavigationbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C871CCA26CB0014C52F /* TTTopNavigationbarUITests.m */; };
+		EBD55C971CCA27020014C52F /* BaseTabelviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C961CCA27020014C52F /* BaseTabelviewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EBD55C831CCA26CB0014C52F /* TTTopNavigationbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTopNavigationbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD55C871CCA26CB0014C52F /* TTTopNavigationbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTopNavigationbarUITests.m; sourceTree = "<group>"; };
 		EBD55C891CCA26CB0014C52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD55C951CCA27020014C52F /* BaseTabelviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabelviewVC.h; sourceTree = "<group>"; };
+		EBD55C961CCA27020014C52F /* BaseTabelviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabelviewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				EBD55C661CCA26CB0014C52F /* AppDelegate.m */,
 				EBD55C681CCA26CB0014C52F /* ViewController.h */,
 				EBD55C691CCA26CB0014C52F /* ViewController.m */,
+				EBD55C951CCA27020014C52F /* BaseTabelviewVC.h */,
+				EBD55C961CCA27020014C52F /* BaseTabelviewVC.m */,
 				EBD55C6B1CCA26CB0014C52F /* Main.storyboard */,
 				EBD55C6E1CCA26CB0014C52F /* Assets.xcassets */,
 				EBD55C701CCA26CB0014C52F /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				EBD55C6A1CCA26CB0014C52F /* ViewController.m in Sources */,
 				EBD55C671CCA26CB0014C52F /* AppDelegate.m in Sources */,
 				EBD55C641CCA26CB0014C52F /* main.m in Sources */,
+				EBD55C971CCA27020014C52F /* BaseTabelviewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
